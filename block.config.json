@@ -1,0 +1,13 @@
+{
+  "name": "shared_block1",
+  "type": "shared-fn",
+  "source": {
+    "https": "https://github.com/athulrajneoito/shared_block1",
+    "ssh": "git@github.com:athulrajneoito/shared_block1.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
